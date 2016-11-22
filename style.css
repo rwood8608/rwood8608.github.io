@@ -57,6 +57,25 @@ body {
 	background-image: url(Images/Background.jpg);
 }
 
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Cloud */
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
 h1 {
     display: inline;
     font-size: 2em;
@@ -116,8 +135,41 @@ h6 {
     font-weight: bold;
 }
 
+/* Nav bar style */
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav {
+    float: left;
+}
+
+li a.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a.nav:hover {
+    background-color: #111;
+}
+
+/* End nav bar style */
+
 .img-circle {
     border-radius: 50%;
+}
+
+.nav.active {
+    background-color: #4CAF50;
 }
 
 /* Email link should be black */
@@ -138,6 +190,9 @@ h6 {
 .header {
 	height: 150px;
 	background: #FFE680;
+}
+.linkNavBar {
+	height: 46px;
 }
 
 /* Middle
@@ -182,4 +237,5 @@ h6 {
 	height: 100px;
 	background: #BFF08E;
 	position: relative;
+	text-indent: 8px;
 }
