@@ -178,7 +178,7 @@ li a.nav:hover {
 }
 
 .wrapper {
-	width: 100%;
+	width: 95%;
 	margin: 0 auto;
 	min-height: 100%;
 	height: auto !important;
@@ -232,7 +232,7 @@ li a.nav:hover {
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	width: 100%;
+	width: 95%;
 	margin: -100px auto 0;
 	height: 100px;
 	background: #BFF08E;
