@@ -57,6 +57,11 @@ body {
 	background-image: url(Images/Background.jpg);
 }
 
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
 /* Gradient transparent - color - transparent */
 
 hr.style-two {
@@ -162,6 +167,18 @@ li a.nav:hover {
     background-color: #111;
 }
 
+a {
+	color: #4CAF50;
+}
+
+i {
+    font-style: italic;
+}
+
+a:visited{
+  color: #4CAF50;
+}
+
 /* End nav bar style */
 
 .img-circle {
@@ -183,13 +200,14 @@ li a.nav:hover {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
+	background: #5B5B5B;
 }
 
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
 	height: 150px;
-	background: #FFE680;
+	background: #474747;
 }
 .linkNavBar {
 	height: 46px;
@@ -222,10 +240,10 @@ li a.nav:hover {
 .left-sidebar {
 	float: left;
 	width: 250px;
-	height: 644px;
+	height: 1670px;
 	margin-left: -100%;
 	position: relative;
-	background: #B5E3FF;
+	background: #474747;
 }
 
 
@@ -235,7 +253,7 @@ li a.nav:hover {
 	width: 95%;
 	margin: -100px auto 0;
 	height: 100px;
-	background: #BFF08E;
+	background: #333;
 	position: relative;
 	text-indent: 8px;
 }
