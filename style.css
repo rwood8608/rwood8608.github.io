@@ -237,7 +237,7 @@ a:visited{
 .container {
 	width: 100%;
 	float: left;
-	overflow: hidden;
+	overflow: visible;
 	font-family: 'Roboto', serif;
 	margin-top: 15px;
 }
