@@ -2,34 +2,12 @@
 <html>
 <head>
   <title>Hey look, a title!</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
-<style type="text/css">
-/* Prevent links from changing colors after visiting them*/
-a {
-    color: blue;
-}
-
-/* Cool freakin quote thingy */
-blockquote {
-  background: #565656;
-  border-left: 10px solid #636363;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
-  color: #CCCCCC;
-}
+<style>
 
 /* Gradient transparent - color - transparent */
 
@@ -63,92 +41,73 @@ hr.style-four {
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
-
-#container span {
-  display: inline-block;
-  width: 5em;
-  border: 1px solid black;
-}
-
-/* sizes */
-#main-wrap > div { min-height: 450px; }
-
-
-#header,
-#footer {
-    min-height: 40px;
-
-}
-
-/* layout */
-#main-wrap {
-    /* overflow to handle inner floating block */
-    overflow: hidden;
-}
-
-#sidebar {
-    float: left;
-    width: 30%;
-}
-
-#content-wrap {
-    float: right;
-    width: 70%;
-    background-color: rgba(128, 128, 128, 0.5);
-}
 </style>
 
-<body background="Images/Background.jpg">
-<div id="header">
-  <!-- Website Title -->
-  <left><h1><font face="arial black" color="black">rwood8608.github.io</font></h1></left>
-  <!-- "Fork me on GitHub" badge in top right of page -->
-  <right><a href="https://github.com/rwood8608/rwood8608.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a></right>
-  <hr class="style-one">
-</div>
-<div id="main-wrap">
-    <div id="sidebar">
-      <span>
-      <ul>
-      <li><b>Home</b></li>
-      <li><a href="AboutMe.html">About Me</a></li>
-    </ul>
-  </span>
-  <span><hr class="style-vertical" align="right"></span>
-  </div>
-    <div id="content-wrap">
-      <h2>Welcome to my website!</h2>
-      <left>
-        <p>This is probably the worst homepage you'll ever see, if I'm completely honest with ya.
-          <br>Not only is this the most basic HTML and CSS you'll ever see, it's also poorly organized!
-          <br>
-          <br><i>"Why is poorly organized code such a bad thing?"</i> I hear you ask? Good question, I'll show you why.
-        <p></p>
-        <br>Would you rather read code like this (</i>NOTE: This is <a href="https://en.wikipedia.org/wiki/Pseudocode">Pseudocode</a></i>):
-      <br><blockquote>
-        <p><br>&lt;HTML&gt;&lt;HEADING&gt;&lt;BODY&gt;&lt;p&gt;This code is a pain to read&lt;/p&gt;&lt;/BODY&gt;&lt;/HEADING&gt;&lt;/HTML&gt;</p>
-      </blockquote>
-      <br>Or code that looks like this?
-      <br><blockquote><p>
-        <br>&lt;HTML&gt;
-        <br>&lt;HEADING&gt;
-        <br>&lt;BODY&gt;
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This code is easier to read!&lt;/p&gt;
-        <br>&lt;/BODY&gt;
-        <br>&lt;/HEADING&gt;
-        <br>&lt;/HTML&gt;</p>
-    </blockquote>
-    <p>Exactly my point. Although to be fair, a lot of the code for this site <i>is</i> pretty organized to me, it probably isn't to anyone else
-    <br>to anyone else, due to my terrible definition of the word "organization".</p>
-      </left>
-      <br><br><br><br><br><br><br><br><br><br>
-    </div>
-</div>
-<div id="footer">
-  <hr class="PacMan">
-  <left><p>Copyright Ryan Woodcock - All Rights Reserved</p></left>
-  <left><p><a href="https://pages.github.com/">Hosted by GitHub Pages</a></p></left>
-</div>
-</body>
 
+<div class="wrapper">
+
+  <header class="header">
+    <br><br><center><h1><b>Ryan (Duck) Woodcock</b></h1></center><a href="https://github.com/rwood8608/rwood8608.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a></right>
+    <center><h3>Louisburg High School</h3></center>
+    <div class="emailLink"><br><center><a href="mailto:rwood8608@fcschools.net"><h3>Shoot me an email!</h3></a></center></div><br>
+  </header><!-- .header-->
+
+  <header class="linkNavBar">
+    <ul class="nav">
+      <li class="nav active"><a href="#" class="nav" style="float:left">Home</a></li>
+      <li class="nav"><a href="College.html" class="nav" style="float:left">College</a></li>
+      <li><a class="nav" href="AboutMe.html" style="float:left">About Me</a></li>
+    </ul>
+  </header>
+
+  <div class="middle">
+
+    <div class="container">
+      <main class="content">
+        <h2>Welcome to my website!</h2>
+        <left>
+          <p>This is probably the worst homepage you'll ever see, if I'm completely honest with you. Not only is this the most basic HTML
+            <br>CSS you'll ever see, it's also poorly organized!
+            <br>
+            <br><i>"Why is poorly organized code such a bad thing?"</i> I hear you ask? Good question, I'll show you why.
+          <p></p>
+          <br>Would you rather read code like this (</i>NOTE: This is <a href="https://en.wikipedia.org/wiki/Pseudocode">Pseudocode</a></i>):
+        <br><blockquote class="code"><p><div><span>
+          <br><br>&lt;HTML&gt;&lt;HEADING&gt;&lt;BODY&gt;&lt;p&gt;This code is a pain to read&lt;/p&gt;&lt;/BODY&gt;&lt;/HEADING&gt;&lt;/HTML&gt;<br><br><br></span></div></p>
+        </blockquote>
+        <br>Or code that looks like this?
+        <br><blockquote class="code"><p><div><span>
+          <br>&lt;HTML&gt;
+          <br>&lt;HEADING&gt;
+          <br>&lt;BODY&gt;
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This code is easier to read!&lt;/p&gt;
+          <br>&lt;/BODY&gt;
+          <br>&lt;/HEADING&gt;
+          <br>&lt;/HTML&gt;
+        </span></div></p>
+        </blockquote>
+        <p>Exactly my point. Although to be fair, a lot of the code for this site <i>is</i> pretty organized to me, it probably isn't to anyone else
+        <br>to anyone else, due to my terrible definition of the word "organization".</p>
+        </left>
+      </main><!-- .content -->
+    </div><!-- .container-->
+    <aside class="left-sidebar">
+      <center>
+        <br><img class="img-circle" src="Images/Duck.jpg" style="width: 160px; height: 160px;"><br>
+        <hr class="style-two">
+        <p>Really cool sidebar that has no use currently!</p>
+        <br><p>You get fake content!<br> and <i>YOU</i> get fake content, <i>EVERYBODY GETS FAKE CONTENT!</i></p>
+      </center>
+    </aside><!-- .left-sidebar -->
+
+  </div><!-- .middle-->
+
+</div> <!-- .wrapper -->
+
+<footer class="footer">
+  <h4>
+  <br><p>Copyright Ryan Woodcock - All Rights Reserved</p>
+  <br><a href="https://pages.github.com/"><p>Hosted by GitHub Pages</p></a>
+  </h4>
+</footer><!-- .footer -->
 </html>
