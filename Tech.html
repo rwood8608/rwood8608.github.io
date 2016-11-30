@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hey look, a college!</title>
+  <title>Hey look, technawledgy!</title>
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
+<style>
+.first {
+  text-indent: 2em;
+}
+</style>
+
 <body>
 
+  <!-- Start Header -->
   <div class="wrapper">
     <header class="header">
       <br><br><center><h1><b>Ryan (Duck) Woodcock</b></h1></center><a href="https://github.com/rwood8608/rwood8608.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a></right>
@@ -19,30 +26,30 @@
     <header class="linkNavBar">
       <ul class="nav">
         <li class="nav"><a href="index.html" class="nav" style="float:left">Home</a></li>
-        <li class="nav active"><a href="#" class="nav" style="float:left">College</a></li>
+        <li class="nav"><a href="College.html" class="nav" style="float:left">College</a></li>
         <li><a class="nav" href="AboutMe.html" style="float:left">About Me</a></li>
-        <li><a class="nav" href="Tech.html" style="float: right">Site Information</a></li>
+        <li><a class="nav active" href="Tech" style="float: right">Site Information</a></li>
       </ul>
     </header>
+    <!-- End Header -->
 
+    <!-- Main content -->
     <div class="middle">
       <div class="container">
         <main class="content">
-          <center><img src="Images/vance.png" alt="VGCC">
-          <br><br><p><h3>At a glance</h3></p>
-          <br><p><h4>Vance–Granville Community College is a community college in North Carolina serving Vance, Granville, Franklin, and Warren counties.
-            It was established in 1969 by the North Carolina General Assembly as Vance County Technical Institute.</h4></p>
-
-            <br><p><h3>Location</h3></p>
-            <p><h4>Henderson, North Carolina</h4></p>
-
-            <br><p><h3>Mascot</h3></p>
-            <img src="http://www.vgcc.edu/sites/default/files/images/mascot.png" alt="vangards" width: "128px"; height="128px";>
-            <p>The Vanguards</p>
-          </center>
+          <!-- <h1>Site Information</h1>
+          <p>This website is coded in HTML with a "master" CSS stylesheet located at "style.css". It can be found by visiting ""/style.css" <i>or</i> viewing the file on Github.</p>
+          <br>
+          <br> -->
+          <h1>Software used to create the site</h1>
+          <br>
+          <br>
+          <p class="first"><font size="3"><b>Code Editor - </b><a href="https://atom.io/">Atom</font></a></font></p>
+          <!-- End main content -->
         </main><!-- .content -->
       </div><!-- .container-->
 
+      <!-- Sidebar -->
       <aside class="left-sidebar">
         <center>
           <br><img class="img-circle" src="Images/Duck.jpg" style="width: 160px; height: 160px;"><br>
@@ -50,6 +57,7 @@
           <p>Really cool sidebar that has no use currently!</p>
           <br><p>You get fake content!<br> and <i>YOU</i> get fake content, <i>EVERYBODY GETS FAKE CONTENT!</i></p>
         </center>
+        <!-- End Sidebar -->
       </aside><!-- .left-sidebar -->
 
     </div><!-- .middle-->
