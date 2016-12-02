@@ -97,9 +97,10 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 }
 
 div.ImgCaption {
-	background-color: red;
+	color:#fff;
+	background-color:#f44336;
 	position: relative;
-	top: -10px;
+	top: -7px;
 	overflow: visible;
 }
 
