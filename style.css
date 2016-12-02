@@ -96,9 +96,11 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
 }
 
-.w3-container:after,.w3-panel:after,.w3-row:after,.w3-row-padding:after,.w3-topnav:after,.w3-clear:after,.w3-btn-group:before,.w3-btn-group:after,.w3-btn-bar:before,.w3-btn-bar:after
-{
-	content:"";display:table;clear:both
+div.ImgCaption {
+	background-color: red;
+	position: relative;
+	top: -10px;
+	overflow: visible;
 }
 
 h1 {
