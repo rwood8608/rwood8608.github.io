@@ -98,10 +98,13 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 
 div.ImgCaption {
 	color:#fff;
-	background-color:#f44336;
+	background-color:#333;
 	position: relative;
+	margin: 0 60px;
 	top: -7px;
 	overflow: visible;
+	letter-spacing: -0.5px;
+	text-align: justify;
 }
 
 h1 {
