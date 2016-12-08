@@ -246,7 +246,7 @@ blockquote.code {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     margin: 5px;
-    background-image: url(Images/openquoteCode.gif);
+    background-image: url(Images/openquoteCode.png);
     background-position: top left;
     background-repeat: no-repeat;
     text-indent: 23px;
@@ -254,7 +254,7 @@ blockquote.code {
 blockquote.code div {
     padding-right: 50px;
     display: block;
-    background-image: url(Images/closequoteCode.gif);
+    background-image: url(Images/closequoteCode.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
