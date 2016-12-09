@@ -355,3 +355,14 @@ a:visited {
     text-indent: 8px;
     font-family: 'Roboto', serif;
 }
+@media screen and (max-width: 648px) {
+    .left-sidebar {
+        display: none !important;
+    }
+    .content{
+      padding: 0 5px 15px 5px;
+    }
+    li a.nav{
+      padding: 7px 8px;
+    }
+}
